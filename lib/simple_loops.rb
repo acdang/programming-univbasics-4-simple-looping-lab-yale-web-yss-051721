@@ -9,6 +9,9 @@ end
 
 def loop_message_n_times(message, number)
   while number > 0 do
+    puts message
+    number -= 1
+  end
 end
 
 def output_array
